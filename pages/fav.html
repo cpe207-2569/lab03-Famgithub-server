@@ -1,102 +1,192 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="../style.css" />
     <title>My Portfolio</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-3">
-        <div class="container-fluid">
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler mx-auto"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#mainNavbar"
+          aria-controls="mainNavbar"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-            <button class="navbar-toggler mx-auto" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar"
-                aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse justify-content-center" id="mainNavbar">
-
-                <div class="navbar-nav gap-3 gap-lg-5 fw-bold text-center pt-3 pt-lg-0">
-                    <a class="nav-link" href="../index.html">HOME</a>
-                    <a class="nav-link active" href="./pages/fav.html">FAVORITES</a>
-                    <a class="nav-link" href="./gallery.html">GALLERY</a>
-                    <a class="nav-link" href="./con.html">CONTACT</a>
-                </div>
-
-            </div>
-
+        <div
+          class="collapse navbar-collapse justify-content-center"
+          id="mainNavbar"
+        >
+          <div
+            class="navbar-nav gap-3 gap-lg-5 fw-bold text-center pt-3 pt-lg-0"
+          >
+            <a class="nav-link" href="../index.html">HOME</a>
+            <a class="nav-link active" href="./pages/fav.html">FAVORITES</a>
+            <a class="nav-link" href="./gallery.html">GALLERY</a>
+            <a class="nav-link" href="./con.html">CONTACT</a>
+          </div>
         </div>
+      </div>
     </nav>
-    <div class="container mt-5" style="max-width: 700px;">
-        <div class="row row-cols-1 row-cols-sm-2 g-4">
 
-            <div class="col">
-                <a href="https://www.youtube.com/@Lung-A" target="_blank" rel="noopener noreferrer"
-                    class="text-decoration-none h-100 d-block">
-                    <div class="card h-100 border shadow-sm custom-card">
-                        <div class="card-body p-4">
-                            <h3 class="card-title fw-bold fs-5 mb-3 text-dark">ลุงเอ</h3>
-                            <p class="card-text text-muted small mb-0">
-                                เป็น streamer เล่นเกมที่มีความเฮฮา สนุกสนานและ
-                                มีโดเนทที่ดีเหมาะกับเด็กๆดูไว้จะได้ไม่ทำตาม
-                            </p>
-                        </div>
-                    </div>
-                </a>
+    <div class="container mt-5" style="max-width: 800px">
+      <div class="row row-cols-1 g-4">
+        <div class="col">
+          <a
+            href="https://www.youtube.com/@Lung-A"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="text-decoration-none h-100 d-block"
+          >
+            <div class="card h-100 border shadow-sm custom-card">
+              <div class="row g-0 align-items-center">
+                <div class="col-sm-4 d-flex justify-content-center">
+                  <img
+                    src="../imgs/a.png"
+                    width="200"
+                    height="200"
+                    style="object-fit:contain;"
+                    class="card-img-side"
+                  />
+                </div>
+                <div class="col-sm-8">
+                  <div class="card-body p-4">
+                    <h3 class="card-title fw-bold fs-5 mb-3 text-dark">
+                      ลุงเอ
+                    </h3>
+                    <p class="card-text text-muted small mb-0">
+                      เป็น streamer เล่นเกมที่มีความเฮฮา สนุกสนานและ
+                      มีโดเนทที่ดีเหมาะกับเด็กๆดูไว้จะได้ไม่ทำตาม
+                    </p>
+                  </div>
+                </div>
+              </div>
             </div>
-
-            <div class="col">
-                <a href="https://www.youtube.com/@bprpmathbasics/videos" target="_blank" rel="noopener noreferrer"
-                    class="text-decoration-none h-100 d-block">
-                    <div class="card h-100 border shadow-sm custom-card">
-                        <div class="card-body p-4">
-                            <h3 class="card-title fw-bold fs-5 mb-3 text-dark">bprp math basics</h3>
-                            <p class="card-text text-muted small mb-0">
-                                เป็นช่อง youtube ที่สอน math ต่างๆ ไม่ว่าจะเป็นในส่วนของ proofs วิธีคิดต่างๆ
-                                ทำไมอันนี้ทำได้ไม่ได้ยังไง
-                            </p>
-                        </div>
-                    </div>
-                </a>
-            </div>
-
-            <div class="col">
-                <a href="https://open.spotify.com" target="_blank" rel="noopener noreferrer"
-                    class="text-decoration-none h-100 d-block">
-                    <div class="card h-100 border shadow-sm custom-card">
-                        <div class="card-body p-4">
-                            <h3 class="card-title fw-bold fs-5 mb-3 text-dark">Spotify</h3>
-                            <p class="card-text text-muted small mb-0">
-                                เป็น platform ที่ไว้ฟังเพลง podcast ต่างๆ ไว้ฟังเพื่อความสนุกสนาน บันเทิง
-                            </p>
-                        </div>
-                    </div>
-                </a>
-            </div>
-
-            <div class="col">
-                <a href="https://wccftech.com/topic/hardware/" target="_blank" rel="noopener noreferrer" class="text-decoration-none h-100 d-block">
-                    <div class="card h-100 border shadow-sm custom-card">
-                        <div class="card-body p-4">
-                            <h3 class="card-title fw-bold fs-5 mb-3 text-dark">Hardware</h3>
-                            <p class="card-text text-muted small mb-0">
-                                สนใจใน hardware ใหม่ๆที่มีการพัฒนาจากรุ่นก่อนๆว่าเทคโนโลยีที่เข้ามาใหม่เป็นยังไง ทำยังไง
-                                ข้อดีข้อเสียเป็นยังไง
-                            </p>
-                        </div>
-                    </div>
-                </a>
-            </div>
-
+          </a>
         </div>
+
+        <div class="col">
+          <a
+            href="https://www.youtube.com/@bprpmathbasics/videos"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="text-decoration-none h-100 d-block"
+          >
+            <div class="card h-100 border shadow-sm custom-card">
+              <div class="row g-0 align-items-center flex-sm-row-reverse">
+                <div class="col-sm-4 d-flex justify-content-center">
+                  <img
+                    src="../imgs/math.png"
+                    width="300"
+                    height="200"
+                    style="object-fit: cover;"
+                    class="card-img-side"
+                    alt="bprp math basics"
+                  />
+                </div>
+                <div class="col-sm-8">
+                  <div class="card-body p-4 text-sm-end">
+                    <h3 class="card-title fw-bold fs-5 mb-3 text-dark">
+                      bprp math basics
+                    </h3>
+                    <p class="card-text text-muted small mb-0">
+                      เป็นช่อง youtube ที่สอน math ต่างๆ ไม่ว่าจะเป็นในส่วนของ
+                      proofs วิธีคิดต่างๆ ทำไมอันนี้ทำได้ไม่ได้ยังไง
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="col">
+          <a
+            href="https://open.spotify.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="text-decoration-none h-100 d-block"
+          >
+            <div class="card h-100 border shadow-sm custom-card">
+              <div class="row g-0 align-items-center">
+                <div class="col-sm-4 d-flex justify-content-center">
+                  <img
+                    src="../imgs/Spotify-Logo-PNG-Photos.png"
+                    class="card-img-side"
+                    width="200"
+                    height="200"
+                    style="object-fit: cover; border-radius: 1.5rem"
+                    alt="Spotify"
+                  />
+                </div>
+                <div class="col-sm-8">
+                  <div class="card-body p-4">
+                    <h3 class="card-title fw-bold fs-5 mb-3 text-dark">
+                      Spotify
+                    </h3>
+                    <p class="card-text text-muted small mb-0">
+                      เป็น platform ที่ไว้ฟังเพลง podcast ต่างๆ
+                      ไว้ฟังเพื่อความสนุกสนาน บันเทิง
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="col">
+          <a
+            href="https://wccftech.com/topic/hardware/"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="text-decoration-none h-100 d-block"
+          >
+            <div class="card h-100 border shadow-sm custom-card">
+              <div class="row g-0 align-items-center flex-sm-row-reverse">
+                <div class="col-sm-4 d-flex justify-content-center">
+                  <img
+                    src="../imgs/robot.png"
+                    class="card-img-side"
+                    width="200"
+                    height="200"
+                    style="object-fit: cover; border-radius: 1.5rem"
+                    alt="Hardware"
+                  />
+                </div>
+                <div class="col-sm-8">
+                  <div class="card-body p-4 text-sm-end">
+                    <h3 class="card-title fw-bold fs-5 mb-3 text-dark">
+                      Hardware
+                    </h3>
+                    <p class="card-text text-muted small mb-0">
+                      สนใจใน hardware
+                      ใหม่ๆที่มีการพัฒนาจากรุ่นก่อนๆว่าเทคโนโลยีที่เข้ามาใหม่เป็นยังไง
+                      ทำยังไง ข้อดีข้อเสียเป็นยังไง
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
     </div>
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-</body>
-
+  </body>
 </html>
