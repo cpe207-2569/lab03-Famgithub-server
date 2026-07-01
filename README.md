@@ -8,6 +8,6 @@
 ---
 ให้ระบุข้อมูลของ นศ. และ URL ของ Github Pages ไว้ด้านล่างนี้
 
-- ชื่อ-สกุล:
-- รหัสนักศึกษา:
-- <strong>GITHUB PAGE URL : </strong>
+- ชื่อ-สกุล: ศุภัชโชค พิมสาน
+- รหัสนักศึกษา: 680610724
+- <strong>GITHUB PAGE URL : https://cpe207-2569.github.io/lab03-Famgithub-server/</strong>
