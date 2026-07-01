@@ -1,9 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Portfolio</title>
-  </head>
-  <body></body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+  <link rel="stylesheet" href="style.css" />
+  <title>My Portfolio</title>
+</head>
+
+<body>
+ <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-3">
+  <div class="container-fluid">
+    
+    <button class="navbar-toggler mx-auto" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar" aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse justify-content-center" id="mainNavbar">
+      
+      <div class="navbar-nav gap-3 gap-lg-5 fw-bold text-center pt-3 pt-lg-0">
+        <a class="nav-link active" href="#">HOME</a>
+        <a class="nav-link" href="./pages/fav.html">FAVORITES</a>
+        <a class="nav-link" href="./pages/gallery.html">GALLERY</a>
+        <a class="nav-link" href="./pages/con.html">CONTACT</a>
+      </div>
+      
+    </div>
+    
+  </div>
+</nav> 
+
+  <div class="d-flex justify-content-center align-items-center mx-auto gap-3 mt-5" style="max-width: 700px">
+    <div >
+      <img src="./imgs/me.jpg" width="200" height="200" style="object-fit: cover; border-radius: 1.5rem;" />
+    </div>
+
+    <div class="d-none d-sm-block">
+      <div class="display-5 mb-3 text-end">Supatchok Pimsan</div>
+      <div class="text-muted">
+        Hi, my call is Fam. I am currently studying Computer Engineering at CMU. Outside of my classes, I enjoy
+        unwinding through spectacular movies, taking note of music, analyzing books.
+      </div>
+    </div>
+  </div>
+
+  <p class="text-center fs-3 mt-4">Skills</p>
+
+  <div style="max-width: 700px" class="mx-auto">
+
+    <div class="d-flex border mb-3 shadow-sm my-rounded-all hover-card">
+      <div class="my-rounded-left d-flex align-items-center my-2">
+        <img src="imgs/computer.png" width="150px" height="150px" style="object-fit: cover"
+          class="my-rounded-left d-none d-sm-block" />
+      </div>
+      <div class="p-4">
+        <p class="fw-semibold fs-5 mb-1">Programming</p>
+        <span class="text-muted">
+          เขียน C, C++, Python ในการทำระบบหรือโปรเจคต่างๆ เพื่อให้ตอบโจทย์การแก้ปัญหาตามที่ต้องการ
+        </span>
+      </div>
+    </div>
+
+    <div class="d-flex border mb-3 shadow-sm my-rounded-all hover-card">
+      <div class="p-4">
+        <p class="fw-semibold fs-5 mb-1">Microcontroller</p>
+        <span class="text-muted">
+          ใช้ Arduino (uno, nano, mega, esp8266, esp32), Raspberry pi, ATX2
+          ในการทำโปรเจคต่างๆที่ต้องรับค่าจากเซนเซอร์มาใช้ในการวิเคราะห์ แก้ปัญหาต่างๆ หรือหุ่นยนต์
+        </span>
+      </div>
+      <div class="my-rounded-right d-flex align-items-center">
+        <img src="imgs/micro.png" width="150px" height="150px" style="object-fit: cover"
+          class="my-rounded-right d-none d-sm-block" />
+      </div>
+    </div>
+
+  </div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
 </html>
